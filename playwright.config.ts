@@ -1,11 +1,9 @@
-import { defineConfig } from '@playwright/test';
-
 export default defineConfig({
-    testDir: './tests',
+  testDir: './tests',
 
-    use: {
-        browserName: 'chromium',
-        headless: true,
-        testIdAttribute: 'data-test'
-    }
+  use: {
+    browserName: 'chromium',
+    headless: true,
+    testIdAttribute: 'data-test'
+  }
 });
